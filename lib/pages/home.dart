@@ -17,8 +17,8 @@ class _HomeState extends State<Home> {
     data= data.isNotEmpty ? data : ModalRoute.of(context)?.settings.arguments as Map;
 
     return Scaffold(
-      backgroundColor: Colors.grey[900],
-      body: SafeArea(
+        backgroundColor: Colors.grey[900],
+        body: SafeArea(
           child: Padding(
             padding: const EdgeInsets.fromLTRB(0, 50.0, 0, 0),
             child: Column(
@@ -43,7 +43,7 @@ class _HomeState extends State<Home> {
                         fontSize: 15.0,
                         letterSpacing: 3.0,
                         color: Colors.white,
-                    ),)
+                      ),)
                 ),
                 SizedBox(height: 75.0,),
                 Row(
@@ -72,6 +72,6 @@ class _HomeState extends State<Home> {
               ],
             ),
           ),
-      ));
+        ));
   }
 }

@@ -1,11 +1,11 @@
 {
-    "name": "my_app",
-    "short_name": "my_app",
+    "name": "data",
+    "short_name": "data",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "My first flutter project",
+    "description": "my first flutter project",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
